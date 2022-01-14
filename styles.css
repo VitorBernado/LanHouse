@@ -1,0 +1,30 @@
+a  {
+    text-decoration: none;
+}
+
+.menu {
+   width: auto;
+}
+
+.Barra-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+    border-bottom: 2px solid #29166f;
+    margin: 0.5rem;
+}
+
+.Navegacao-menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+.Navegacao-menu a {
+    width: 75px;
+    padding: 10px;
+    border: #29166f solid 2px;
+    border-radius: 20px;
+    text-align: center;
+}
