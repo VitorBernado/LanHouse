@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,700;1,400&display=swap');
+
 a  {
     text-decoration: none;
 }
@@ -22,9 +24,19 @@ a  {
 }
 
 .Navegacao-menu a {
-    width: 75px;
+    width: 95px;
     padding: 10px;
     border: #29166f solid 2px;
     border-radius: 25px;
     text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    color: #29166f;
+    transition: 0.5s;
+}
+
+.Navegacao-menu a:hover {
+    background-color: #29166f;
+    color: #00923f;
+    border: #00923f 2px solid;
 }
